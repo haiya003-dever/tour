@@ -146,7 +146,7 @@ a {
     text-align: right;
     position: absolute;
     top: 10rem;
-    right: 3rem;
+    right: 1rem;
     color: white;
   }
   #visual h2.on {
@@ -208,7 +208,6 @@ a {
   #visual .wrap08 > ul li {
     align-items: center;
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     border: 1px solid #ccc;
@@ -606,6 +605,7 @@ a {
     display: flex;
     margin: 50px auto;
     width: 100%;
+    overflow: hidden;
   }
   #con4 .wrap06 {
     display: flex;
@@ -625,10 +625,10 @@ a {
   }
   #con4 ul {
     display: flex;
-    width: 3000px;
-
+    box-sizing: border-box;
+    width: 2000px;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     align-items: center;
     padding: 30px;
@@ -636,7 +636,7 @@ a {
   #con4 li {
     /* padding: 0px 20px; */
     width: 200px;
-    text-align: center;
+    /* text-align: center; */
     position: relative;
     animation: move 5s infinite linear;
   }
@@ -657,7 +657,7 @@ a {
     /* display: flex; */
     justify-content: space-between;
     margin: 0px auto;
-    padding: 50px;
+    padding: 20px;
   }
   footer p {
     margin: 20px 0px;
